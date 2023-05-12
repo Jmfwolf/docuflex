@@ -11,7 +11,7 @@ To use DocuFlex, you need to have Python installed. You can download Python from
 1. Clone the DocuFlex repository:
 
    ```shell
-   git clone https://github.com/your-username/docuflex.git
+   git clone https://github.com/jmfwolf/docuflex.git
    ```
 
 2. Navigate to the project directory:
@@ -100,7 +100,7 @@ When contributing, please adhere to the following guidelines:
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [GNULicense](LICENSE).
 
 ## Acknowledgments
 
@@ -109,7 +109,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-If you have any questions or inquiries, please contact [Your Name] at [your-email@example.com].
+If you have any questions or inquiries, please contact [Your Name] at [jmfwolf@hacksomniac.com].
 
 ---
 **Note**: The code provided in the README is just a starting point for the interpreter implementation. You need to further refine and enhance it according to the specific requirements and syntax of the DocuFlex language.
