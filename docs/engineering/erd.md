@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 
-The purpose of this software engineering requirements document is to outline the specifications and functionalities of the DocuFlex language software. The software aims to provide a light language that can be used to programmatically create software documentation following the Grand Unified Theory of Documentation. This document will define the requirements for the software, including its features, user interactions, and system behavior.
+The purpose of this document is to outline the specifications and functionalities of the DocuFlex language software. The software aims to provide a light language that can be used to programmatically create software documentation following the Grand Unified Theory of Documentation. This document will define the requirements for the software, including its features, user interactions, and system behavior.
 
 ## 2. Functional Requirements
 
