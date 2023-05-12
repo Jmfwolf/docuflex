@@ -1,0 +1,25 @@
+// @df Explanation
+class Explanation {
+  title: "Understanding Documentation"
+  description: """
+  This explanation provides a deeper understanding of the different types of documentation and their 
+  roles in conveying information to users. It discusses the importance of each type and how they 
+  complement one another.
+  """
+  topic: "The four types of documentation (tutorials, how-to guides, explanations, and references)"
+  background: "Documentation serves a critical role in user education and support."
+  implications: "Using the appropriate type of documentation for different user needs improves user experience and understanding."
+  relatedConcepts: [
+    {
+      concept: "User-centered design"
+      relation: "Understanding user needs is crucial for creating effective documentation."
+    }
+  ]
+  resources: [
+    {
+      type: "Link"
+      url: "https://www.example.com/documentation-explanation"
+      description: "In-depth explanation of documentation types and their roles"
+    }
+  ]
+}

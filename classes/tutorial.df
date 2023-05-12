@@ -1,0 +1,27 @@
+// @df Tutorials
+class Tutorial {
+  title: "Tutorial on Writing Tutorials"
+  description: """
+  This tutorial guides you through the process of creating an effective tutorial document. It will 
+  cover the key components of a tutorial and provide examples and best practices.
+  """
+  steps: [
+    {
+      stepNumber: 1
+      instruction: "Choose a topic for your tutorial."
+      example: "Writing a tutorial on using a specific software feature."
+    },
+    {
+      stepNumber: 2
+      instruction: "Outline the steps required to complete the task."
+      example: "1. Open the software. 2. Navigate to the feature. 3. Perform the desired action."
+    }
+  ]
+  resources: [
+    {
+      type: "Link"
+      url: "https://www.example.com/tutorial-template"
+      description: "Tutorial template for creating well-structured tutorials"
+    }
+  ]
+}

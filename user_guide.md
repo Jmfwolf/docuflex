@@ -83,4 +83,4 @@ In this example, `property1` is a multiline string that contains the text "This 
 
 ## Conclusion
 
-That's it for the basics of DocuFlex! We've covered how to define a class, use inheritance, define arrays and objects, and use multiline strings. Remember, the key to mastering DocuFlex is practice. So, start creating your documentation and you'll become proficient in no time. Happy documenting!
+That's it for the basics of DocuFlex! We've covered how to define a class, use inheritance, define arrays and objects, and use multiline strings. Remember, the key to mastering DocuFlex is practice. So, start creating your documentation and you'll become proficient in no time.
