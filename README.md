@@ -104,12 +104,14 @@ This project is licensed under the [GNULicense](LICENSE).
 
 ## Acknowledgments
 
-- The DocuFlexInterpreter was developed by [Your Name].
+- The DocuFlexInterpreter was developed by the DocuFlex team:
+    - [Jmfwolf](https://github.com/Jmfwolf)
+    - [RawBoeuf](https://github.com/RawBoeuf)
 - Inspiration and ideas were drawn from [list any references or inspirations if applicable].
 
 ## Contact
 
-If you have any questions or inquiries, please contact [Your Name] at [jmfwolf@hacksomniac.com].
+If you have any questions or inquiries, please contact [Jmfwolf](https://github.com/Jmfwolf) at [jmfwolf@hacksomniac.com].
 
 ---
 **Note**: The code provided in the README is just a starting point for the interpreter implementation. You need to further refine and enhance it according to the specific requirements and syntax of the DocuFlex language.
