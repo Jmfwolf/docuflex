@@ -1,3 +1,4 @@
+![DocuFlex Logo](DocuFlexResized.png)
 # DocuFlex
 
 DocuFlex is a programming language designed for creating structured documents and data representation. It provides a simplified syntax for defining classes and their content, allowing you to easily organize and manipulate data in a hierarchical manner.
