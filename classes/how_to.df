@@ -1,0 +1,30 @@
+// @df How-to Guides
+class HowToGuide {
+  title: "How to Write a How-to Guide"
+  description: """
+  This how-to guide provides a step-by-step process for creating problem-solving guides that address 
+  specific issues or challenges faced by users.
+  """
+  problem: "Need to create a how-to guide for a common user issue."
+  solution: {
+    steps: [
+      {
+        stepNumber: 1
+        instruction: "Identify the problem that needs to be addressed."
+        example: "Users are having trouble exporting data to a specific file format."
+      },
+      {
+        stepNumber: 2
+        instruction: "Outline the steps required to solve the problem."
+        example: "1. Open the export menu. 2. Choose the desired file format. 3. Save the file."
+      }
+    ]
+  }
+  resources: [
+    {
+      type: "Link"
+      url: "https://www.example.com/how-to-guide-template"
+      description: "How-to guide template for addressing user issues"
+    }
+  ]
+}

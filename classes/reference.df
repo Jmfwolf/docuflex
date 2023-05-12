@@ -1,0 +1,45 @@
+// @df Reference
+class Reference {
+  title: "Documentation Reference"
+  description: """
+  This reference provides detailed information on the key components, structure, and best practices for 
+  writing each of the four types of documentation: tutorials, how-to guides, explanations, and 
+  references.
+  """
+  subject: "Documentation structure and components"
+  properties: [
+    {
+      propertyName: "Title"
+      dataType: "String"
+      description: "A concise and descriptive title for the document."
+      example: "How to Export Data to a Specific File Format"
+    },
+    {
+      propertyName: "Description"
+      dataType: "String"
+      description: "A brief overview of the document's purpose and content."
+      example: "This how-to guide provides a step-by-step process for exporting data to a specific file format."
+    }
+  ]
+  methods: [
+    {
+      methodName: "CreateOutline"
+      parameters: [
+        {
+          parameterName: "steps"
+          dataType: "Array"
+        }
+      ]
+      returnType: "Outline"
+      description: "Generates an outline of the steps or sections required for the document."
+      example: "1. Identify the problem. 2. Outline the solution. 3. Provide resources."
+    }
+  ]
+  resources: [
+    {
+      type: "Link"
+      url: "https://www.example.com/documentation-reference"
+      description: "Comprehensive reference of documentation best practices and structure"
+    }
+  ]
+}
