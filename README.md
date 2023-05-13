@@ -1,35 +1,43 @@
-![DocuFlex Logo](DocuFlexResized.png)
-
 # DocuFlex: A Domain Specific Language for Dynamic Documentation
 
+![DocuFlex Logo](DocuFlexResized.png)
+
 ## Introduction
+
 DocuFlex is a domain-specific language designed to facilitate the dynamic and automated generation of software documentation. It leverages concepts such as classes, inheritance, and polymorphism to allow for the creation of accurate, comprehensive, and customizable documents. DocuFlex is designed to be simple yet powerful, offering a high degree of flexibility in defining and generating documentation.
 
 ## Basic Concepts
 
 ### Documents and Blocks
+
 In DocuFlex, a document represents a complete piece of documentation, such as a tutorial, API reference, or user manual. Each document consists of various sections, or blocks, which can include an introduction, content, conclusion, and metadata.
 
 Blocks are defined as either primitive or extended from existing blocks, allowing for a high degree of customizability. Primitive blocks are the most basic types, while extended blocks inherit attributes and functionality from their parent blocks.
 
 ### Classes and Inheritance
+
 DocuFlex employs object-oriented principles. Documents and blocks are defined as classes, with the option to extend other classes using the `extends` keyword. This enables a form of inheritance, where child classes can inherit properties and methods from parent classes.
 
 ### Metadata
+
 Every document includes a block of metadata that contains information about the document, such as the author, revision version, and revision date. The contents of the metadata block can be automatically populated using built-in functions and variables.
 
 ## Key Features
 
 ### Variables and Functions
+
 DocuFlex supports the use of variables and built-in functions. Variables are defined using the `@` symbol and can be used to store and reference data within and between documents. Built-in functions, such as `peekAt`, `extract`, `readFile`, and `formatDate`, can perform various tasks, including extracting and manipulating data, reading file contents, and formatting dates.
 
 ### Conditional Logic and Inversions
+
 DocuFlex supports conditional logic and inversions for added flexibility. The `?` and `!` symbols are used to represent conditional logic and inversions, respectively. This allows for the creation of blocks or attributes that are included only when certain conditions are met.
 
 ### Lambdas
+
 With the `lambda` keyword, DocuFlex allows users to define their own custom logic, providing the power to create reusable functions for various tasks in the documentation process.
 
 ### Validation
+
 DocuFlex includes a `validate` keyword to define validation rules for document and block attributes. This helps ensure the generated documentation adheres to certain standards or constraints.
 
 ## Example
@@ -85,9 +93,10 @@ In summary, DocuFlex is a robust tool for any developer or team seeking an effic
 
 ## Contributing
 
-Contributions to DocuFlex are welcome! If you find any issues or have suggestions for improvements, please create a GitHub issue or submit a pull request. 
+Contributions to DocuFlex are welcome! If you find any issues or have suggestions for improvements, please create a GitHub issue or submit a pull request.
 
 When contributing, please adhere to the following guidelines:
+
 - Fork the repository and create your branch from `main`.
 - Follow the existing code style and naming conventions.
 - Write clear commit messages and provide a detailed description of your changes.
@@ -99,11 +108,11 @@ This project is licensed under the [GNULicense](LICENSE).
 ## Acknowledgments
 
 - The DocuFlexInterpreter was developed by the DocuFlex team:
-    - [Jmfwolf](https://github.com/Jmfwolf)
-    - [RawBoeuf](https://github.com/RawBoeuf)
+  - [Jmfwolf](https://github.com/Jmfwolf)
+  - [RawBoeuf](https://github.com/RawBoeuf)
 - Inspiration and ideas were drawn from:
-    - YAML
-    - Java
+  - YAML
+  - Java
 
 ## Contact
 
