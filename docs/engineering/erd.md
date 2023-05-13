@@ -107,5 +107,3 @@ The software must support the use of the `// @df` prefix to differentiate DocuFl
 5.1.12 The user guide should be localized to support multiple languages and ensure that users from around the world can access and understand the information.
 
 5.1.13 The user guide should include versioning information so that users can quickly identify if they are looking at the correct documentation for the version of DocuFlex they are using.
-
-

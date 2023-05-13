@@ -108,6 +108,7 @@ This project is licensed under the [GNULicense](LICENSE).
 ## Acknowledgments
 
 - The DocuFlexInterpreter was developed by the DocuFlex team:
+
   - [Jmfwolf](https://github.com/Jmfwolf)
   - [RawBoeuf](https://github.com/RawBoeuf)
 - Inspiration and ideas were drawn from:
