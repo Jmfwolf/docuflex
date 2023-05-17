@@ -44,9 +44,7 @@ The AST for DocuFlex is based on the following classes:
 
 - `Validate`: Represents a validation rule, consisting of a list of expressions that form the rule.
 
-- `Lambda`: Represents a user-defined function, consisting of a name
-
-, a list of parameters, and a body.
+- `Lambda`: Represents a user-defined function, consisting of a name, a list of parameters, and a body.
 
 - `Function`: Represents a function call, consisting of a name and a list of arguments.
 
