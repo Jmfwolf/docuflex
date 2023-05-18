@@ -1,0 +1,34 @@
+start: document
+
+document: "doc" CNAME _parent_doc? "{" block* "}"
+
+_parent_doc: "extends" CNAME
+
+block: "block" CNAME "{" attribute* "}"
+
+_parent_block: "extends" CNAME
+
+_is_primitive: "is_primitive"
+
+attribute: CNAME ":" value
+
+value: CNAME | STRING | NUMBER | function | variable | conditional | lambda | validate | "{" value* "}"
+
+function: CNAME "(" (value ("," value)*)? ")"
+
+variable: "@" CNAME
+
+conditional: value "?" value ":" value
+
+lambda: "lambda" CNAME "(" (CNAME ("," CNAME)*)? ")" value
+
+validate: "validate" "{" expression* "}"
+
+expression: value
+
+STRING: /"[^"]*"/
+
+%import common.CNAME
+%import common.NUMBER
+%import common.WS
+%ignore WS

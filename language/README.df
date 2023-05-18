@@ -1,0 +1,32 @@
+doc README extends ExplanationDocument {
+  metadata: peekAt("project_name/meta.df")
+  introduction: "Introduction.df"
+  content: "Content.df"
+  conclusion: "Conclusion.df"
+}
+
+block content is_primitive {
+  text: "This is a sample content block."
+}
+
+block introduction is content {
+  title: "Sample Introduction"
+  summary: "This is a summary of the sample introduction block."
+}
+
+block metadata is_primitive {
+  author: peekAt("project_name/meta.df", "author")
+  revision: peekAt("project_name/meta.df", "revision")
+  updated: date(now)
+}
+
+validate {
+  !@{metadata.author.empty()}
+  @{introduction.title.length} > 0
+}
+
+lambda formatTitle(title: String) -> String {
+  return title.toUpperCase() + " - DocuFlex"
+}
+
+introduction.title = formatTitle("Getting Started")

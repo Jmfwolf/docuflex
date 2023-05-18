@@ -1,6 +1,6 @@
 class AbstractNode:
-    def __init__(self, type):
-        self.type = type
+    def __init__(self, _type):
+        self.type = _type
         self.line_number = None
         self.column_number = None
 
